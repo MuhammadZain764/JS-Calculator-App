@@ -10,13 +10,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+    background: linear-gradient(45deg,#3494E6,#EC6EAD);
 }
 .calculator{
     background-origin: 1px solid #717377;
     padding: 20px;
     border-radius: 16px;
-    background: transparent;
+    background: rgb(115, 115, 121);
     box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
 }
 input{
@@ -24,12 +24,12 @@ input{
     border: none;
     padding: 24px;
     margin: 10px;
-    background: transparent;
+    background: #2c2b2b;
     box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
     font-size: 40px;
     text-align: right;
     cursor: pointer;
-    color:#ffffff;
+    color:#000;
 
 }
 
@@ -43,11 +43,17 @@ button{
     height: 60px;
     margin: 10px;
     border-radius:50%;
-    background: transparent;
-    color: #ffffff;
+    background: white;
+    color: #000;
     font-size: 20px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1);
     cursor: pointer;
+}
+.allClear{
+    color: #2150ad;
+}
+.delete{
+    color: red;
 }
 .equalButton{
     color: #fb7c14;
